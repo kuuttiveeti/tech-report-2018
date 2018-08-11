@@ -1,0 +1,260 @@
+.block-outer {
+  min-width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.block-inner {
+  padding: 120px 0px;
+  width: 80%;
+  max-width: 800px;
+  min-width: 200px;
+  text-align: justify;
+  display: inline-block;
+
+}
+
+
+/* topic-holder*/
+
+.block-outer-topic {
+
+}
+
+.block-inner-topic {
+  padding: 150px 0px 0px 0px;
+
+}
+/*arrow*/
+.block-outer-exploredata {
+  margin-top:  300px;
+}
+.block-inner-exploredata {
+  text-align: center;
+  padding: 0px;
+}
+
+.topic-text-holder {
+  color: white;
+}
+/*next chapter*/
+
+.block-outer-button {
+  background-color: #333;
+}
+.block-inner-button {
+
+  padding: 30px 0px;
+  font-size: 18px;
+  text-align: left;
+}
+
+
+/*  color: #ca2f25; */
+.topic-title-holder {
+  font-family: 'Knockout', sans-serif;
+  font-size: 160px;
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.topic-text-holder {
+  color: white;
+  font-size: 16px;
+}
+
+
+/* subtopic-holder */
+.block-outer-subtopic {
+
+}
+
+
+.block-inner-subtopic {
+  padding: 0;
+  margin-top: 10%;
+
+}
+
+
+.subtopic-number-holder{
+  font-size: 150px;
+  display: inline-block;
+  height: auto;
+  line-height: 120px;
+  vertical-align: top;
+  text-align: left;
+  padding: 20px 0px;
+  font-family: 'Knockout', sans-serif;
+}
+
+.subtopic-title-holder {
+  font-size: 50px;
+  color: white;
+  text-align: left;
+}
+
+
+.subtopic-title-holder p {
+  display: inline;
+  color: white;
+
+}
+
+
+
+.subtopic-text-holder {
+  padding-top: 20px;
+
+}
+
+.subtopic-title-and-text-outer-holder {
+  display: inline-block;
+}
+
+
+
+/* text-holder */
+
+.text-title-holder{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.text-holder {
+    font-size: 16px;
+
+}
+
+/* pic-holder */
+.block-inner-picholder {
+  padding: 50px 0px;
+}
+.pic-holder img{
+  max-height: 300px;
+  width: auto;
+}
+
+.pic-and-note-holder {
+  text-align: center;
+  width: 100%;
+}
+
+/* quote-holder */
+
+.block-outer-quoteholder {
+  background-color: #5B7D87;
+  color: white;
+}
+
+.quote-holder {
+  font-size: 18px;
+}
+
+.authorName-holder {
+  padding-top: 20px;
+  font-size: 18px;
+  text-align: right;
+}
+
+.authorTitle-holder {
+  font-size: 18px;
+  text-align: right;
+}
+
+.quotation {
+  padding: 10px 0px;
+
+}
+/* footer-holder */
+.block-inner-footer {
+  padding: 80px 0px;
+  border: 0;
+  text-align: center;
+}
+.block-outer-footer {
+  bottom: 0;
+  background: #111;
+  color: white;
+  }
+
+
+/* Next-button */
+
+.block-outer-button {
+/*    background-color: #ef5064; */
+  bottom: 0;
+
+
+}
+.block-inner-button {
+  padding: 26px 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Social */
+.rotation-wrapper-outer {
+  display: table;
+}
+
+.rotation-wrapper-inner {
+  height: 0;
+}
+
+
+.social-text {
+  display: block;
+ transform-origin: top left;
+ transform: rotate(90deg) translate(-100%, -100%);
+ white-space: nowrap;
+ color: #888;
+ font-size: 18px;
+}
+
+.block-outer-social {
+  z-index: 3;
+  width: 30px;
+  height: 200px;
+  position: fixed;
+  right: 8px;
+  top: 50%;
+}
+
+.block-inner-social {
+
+}
+
+.block-inner-social img {
+	width: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* highcharts-holder */
+
+.block-outer-highcharts {
+  background-color: white;
+
+}
+
+.highcharts-title-holder {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 20px;
+}
+
+
+
+
+.highcharts-holder {
+  width: 100%;
+  max-width: 100%;
+}
+
+.highcharts-notes{
+  text-align: left;
+  padding: 10px 0px;
+  color: #333;
+}
