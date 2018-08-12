@@ -3,22 +3,14 @@ import {Sidenavcontent} from './sidenavcontent.js';
 import './styles.css';
 import {Link} from 'react-router-dom';
 
+import topics from '../../topics.js'
 
-const list = [
-{ id:"1", href: "/topics/about", number: "1", title: "About" },
-{ id:"2", href: "/topics/tech", number: "2", title: "Tech" },
-{ id:"3", href: "/topics/finance", number: "3", title: "Finance" }
-
-
-]
 
 
 export class Sidenav extends Component {
-    closeNav(){
-         document.getElementById("mySidenav").className = "sidenav-hidden";
-    }
-
-
+  closeNav(){
+       document.getElementById("mySidenav").className = "sidenav-hidden";
+  }
 
     render() {
       return(
@@ -41,7 +33,7 @@ export class Sidenav extends Component {
 
           </div>
 
-            { list.map( (hash) => <Sidenavcontent key={ hash.id } href={hash.href} number={hash.number} title={hash.title} id={hash.id} /> ) }
+            { topics.map( (hash) => <Sidenavcontent key={ hash.id } href={`/topics/${hash.id}`} number={hash.number} title={hash.name} id={hash.id} /> ) }
           </div>
           </div>
           <div onClick={this.openNav}></div>

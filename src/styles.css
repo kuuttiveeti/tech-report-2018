@@ -232,6 +232,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   line-height: 1.5;
+  background-color: #2B4251;
 
 }
 
@@ -325,7 +326,6 @@ background-position: center;
 }
 
 .menu-and-topic-holder {
-  background-color: #FEB47B;
 }
 
 .menu-holder {
@@ -424,19 +424,21 @@ background-position: center;
   }
 
 
+  .subtopic-holder + .submenu-holder {
+    display: none;
+  }
 
 
   .topic-holder {
     padding-left: 0;
   }
 
-  .submenu-holder {
-    /* display: none; */
-  }
-
 
 .submenu-holder {
+  box-sizing: border-box;
+  height: auto;
   position: static;
+  width: 100%;
 }
 
 .submenu-and-article-holder {
@@ -450,22 +452,10 @@ background-position: center;
   }
 
   .article-holder-article {
-    height: 100vh;
 
   }
 
 
-
-
-  .submenu-holder2 {
-      display: inline-block;
-      overflow-x: hidden;
-      width: 100%;
-      height: auto;
-      border-top: 1px solid white;
-
-
-    }
 
 
 
@@ -506,9 +496,13 @@ background-position: center;
 
 }
 
+  .subtitle-box-subtitle {
+    display: none;
+  }
+
 
   .block-inner-topic {
-    padding: 200px 0px;
+    padding: 80px 0px;
   }
 
 
@@ -554,11 +548,7 @@ background-position: center;
 }
 
 .article-holder-topic {
-  display: inline-block;
   width: 100%;
-  -webkit-overflow-scrolling: touch;
-  overflow: scroll;
-  height: 100vh
 }
 .Content {
   text-align: center;
