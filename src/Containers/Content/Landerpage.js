@@ -23,13 +23,13 @@ export class Landerpage extends Component {
                 <div className="block-slush">
                   <p>Report is produced by</p>
                   <div className="logo-holder "><img alt="slush-logo" src={ slush } /></div>
-                  <div className="logo-holder "><img alt="monkhill-logo" src={ monk } /></div>
+                  <div className="logo-holder logo-holder-monk "><img alt="monkhill-logo" src={ monk } /></div>
                 </div>
 
                 <div className="block-title glitch_content">
+                  <p>STATE OF</p>
                   <p>SOUTHEAST</p>
                   <p>ASIAN TECH</p>
-                  <p>REPORT</p>
                   <h1>2018</h1>
                 </div>
                 <Link to="/topics/about">

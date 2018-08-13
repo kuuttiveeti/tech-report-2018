@@ -42,7 +42,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 .btn {
     background: transparent;
-    border: 3px solid white;
+    border: 2px solid white;
     border-radius: 50px;
     box-sizing: border-box;
     color: white;
